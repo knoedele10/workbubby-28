@@ -1,0 +1,15 @@
+# 环境变量与密钥——永远不进仓库
+.env
+.env.*
+!.env.example
+
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
