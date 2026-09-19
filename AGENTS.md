@@ -6,11 +6,13 @@
 
 - **项目名**：my-first-project（暂定名，仓库叫 workbubby-28）
 - **一句话说明**：「今日热搜」网站——一个网页看全微博 / 知乎 / 抖音等平台热搜，点击直达原文（详见 research.md v2）
-- **当前阶段**：Day 3 —— 需求研究已完成（research.md v2，项目方向由 agent 网站更正为热搜聚合），本期范围已明确「本期不做」清单
+- **当前阶段**：Day 5 —— 技术选型已完成（TECH_STACK.md），下一步进入开发（Day 6 起写代码）
 
 ## 2. 技术栈约定
 
 - 前端：HTML + CSS + JavaScript（不引入复杂框架，等学到再说）
+- 数据来源：60s API 免费公开接口（微博 / 知乎 / 抖音热搜），详见 TECH_STACK.md（Day 5 选型）
+- 部署：GitHub Pages（备选 Vercel），详见 TECH_STACK.md
 - 运行环境：Node.js v22+
 - 版本管理：Git（Day 2 开始使用）
 
@@ -45,3 +47,4 @@ my-first-project/
 | 2026-09-16 | 创建规则文件 | WorkBuddy 代写，本人确认 |
 | 2026-09-19 | Day 3 研究后更新项目定位（平台→轻量入口）与当前阶段 | WorkBuddy 代写，本人确认 |
 | 2026-09-19 | 项目方向更正为「今日热搜」网站，同步更新简介与阶段（研究 v2） | WorkBuddy 代写，本人确认 |
+| 2026-09-19 | Day 5 技术选型：数据来源定为 60s API，部署定为 GitHub Pages，技术栈约定补充两项 | WorkBuddy 代写，本人确认 |
